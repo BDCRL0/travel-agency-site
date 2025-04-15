@@ -1,0 +1,26 @@
+/travel-agency
+│
+├── /assets
+│   ├── /css
+│   ├── /js
+│   └── /images
+│
+├── /includes
+│   ├── config.php        ← menu config + common data
+│   ├── db.php            ← DB connection
+│   └── auth.php          ← login/registration/session utils
+│
+├── /pages
+│   ├── home.php
+│   ├── images.php
+│   ├── contact.php
+│   ├── messages.php
+│   ├── login.php
+│   └── logout.php
+│
+├── /uploads              ← image upload folder
+│
+├── index.php             ← Front controller
+├── header.php
+├── footer.php
+└── .htaccess             ← for URL rewriting (optional)
